@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row, p {
+    margin: 0;
+}
+
+/*...nav area...*/
+
+
+.menu {
+    background: linear-gradient(45deg, rgb(184, 72, 234) 0%, rgb(20, 81, 245) 100%);
+}
+
+.menu .navbar-brand {color: white;}
+.menu .navbar-brand:hover {color: white;}
+
+.menu .nav-item a{
+    color: white;
+}
+.menu .nav-item {
+    padding: 0 .5em;
+}
+.dropdown-menu a{ color: #000!important;}
+/*...nav area end...*/
+
+
+/*...slider area...*/
+
+.slider {
+    background: url(../img/student-1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    background-color: rgba(64, 62, 62, 0.7);
+}
+
+.carousel-caption {
+    position: unset;
+    color: #ffffff;
+    font-size: 1.4vw;
+    text-align: left;
+    padding: 16% 8%;
+}
+
+.carousel-caption h5 {
+    font-size: 3vw;
+}
+
+/*...slider area end...*/
+
+
+
+/*...main area...*/
+
+
+.sch-fea{ padding: 10px 20px;}
+.sch-fea:hover{ 
+    background-color: #fff;
+    color: #5786ff;
+    transition: .4s;
+}
+
+.see{
+    color: #121212;
+    font-weight: ;
+    font-family: sans-serif;
+}
+
+.see:hover{
+    color: #1452f5;
+    text-decoration: none;
+    
+    
+}
+
+.rutin { 
+    background: linear-gradient(45deg, rgb(184, 72, 234) 0%, rgb(20, 81, 245) 100%);
+    padding: 16px 0;
+    font-weight: bold;
+}
+
+.rutin .col-md-2{ 
+    background-color: #fff;
+    padding: 10px 0;
+    margin: 0 10px;
+    padding: 10px 30px;s
+    
+}
+
+.notice-board{ 
+    background-color: #1452f5;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+.user li{
+    background-color: black;
+    margin: 0 10px;
+    padding: 8px 20px;
+}
+
+.main-5 {
+    background-color: #eee;
+}
+
+.useful-link {
+    border: 2px solid #eee;
+}
+
+.useful-link h4 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.useful-link a {
+    display: block;
+    padding: 16px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.useful-link a:hover {
+    text-decoration: none;
+    background-color: #e8e8e8;
+}
+
+/* event css start */
+
+
+.event{ 
+    background-color: #1452f5;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0 6px;
+}
+
+.event:hover{ 
+    background-color: #042c91;
+     transition: .5s;
+}
+
+.event a{ 
+    color: white
+}
+
+.event a:hover{ 
+    color:#fff;
+    transition: .5s;
+}
+
+.event-content h5 a{ color: rgb(20, 82, 245);}
+.event-content h5 a:hover{ 
+    color: rgb(6, 48, 157);
+    text-decoration: none;
+    
+}
+
+
+.single-event img:hover{
+    transform: scale(1.1);
+    transition-duration: .9s;
+   
+}
+
+.single-event img{
+   
+    margin-bottom: 10px;
+}
+
+/* event css start */
+
+table a{
+    font-family: SutonnyOMJ;
+    font-size: 18px;
+}
+
+.news{
+    font-family: SutonnyOMJ;
+    font-size: 18px;
+}
+.news img{ height: 340px;}
+
+/*...main area end...*/
+
+/*...footer area...*/
+
+.footer-1{ color: white;}
+
+.footer-1 {
+    background: linear-gradient(45deg, rgb(184, 72, 234) 0%, rgb(20, 81, 245) 100%);
+}
+
+.social a {
+    font-size: 26px;
+    padding: 0 4px;
+}
+
+.footer-1 a{color: white;}
+
+.footer-1 a:hover{
+    color: #c4c4c4;
+    text-decoration: none;
+}
+
+/*...footer area end...*/
+
+
+/*...About area...*/
+
+.banner-1 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-2 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-3 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-4 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-5 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-6 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-7 {
+    background: url(../img/books-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-1 h2,
+.banner-2 h2,
+.banner-3 h2,
+.banner-4 h2,
+.banner-5 h2,
+.banner-6 h2,
+.banner-7 h2 {
+    display: inline-block;
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ffffff;
+}
+
+.teacher .card h5 {
+    border-bottom: 1px solid;
+    padding-bottom: 1em;
+}
+
+/*...About area end...*/
+
+.array img { 
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.now{
+    background-color: forestgreen;
+    color: white;
+}
+
+.calender {font-family: 'Open Sans';}
+body { background-color: #fafafa; }
+pre {font-family: Courier New;}
